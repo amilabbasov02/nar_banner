@@ -188,7 +188,7 @@ video {
     display: block;
     width: 700px;
     margin: 0 auto;
-    position: absolute;z-index: 10;top: -68px;left: 50%;transform: translateX(-50%);
+    position: absolute;z-index: 10;top: -212px;left: 50%;transform: translateX(-50%);
 }
 
 .swiper-slide-active .slider-image{
@@ -197,14 +197,14 @@ video {
 .slider-image {
     background-color: rgb(177, 155, 155);
     width: 100%;
-    height: 150px;
+    /* height: 150px; */
 }
 
 .slider-image img {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    /* object-fit: contain; */
 }
 
 .slider-image .caption_sld {
@@ -823,6 +823,7 @@ button.swiper-pagination-bullet {
 .swiper-slide:not(.swiper-slide-active){
     filter: blur(3px) !important;
     background: none;
+    margin-top: 30px;
 }
 
 
@@ -840,6 +841,7 @@ button.swiper-pagination-bullet {
     padding: 3px;
     background-size: 60% 60%;
     background-position: center center;
+    margin-top: 50px;
 }
 
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
@@ -851,6 +853,7 @@ button.swiper-pagination-bullet {
     border-radius: 5px;
     background-size: 60% 60%;
     background-position: center center;
+    margin-top: 50px;
 }
 
 
