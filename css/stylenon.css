@@ -45,7 +45,7 @@
 
 .slider-area{
     width: 800px;
-    height: 121px;
+    height: 150px;
     background: #d43157;
     position: absolute;
     bottom: 0;
@@ -95,14 +95,15 @@
 .capt_result {
     display: inline-block;
     width: 100%;
-    max-width: 250px;
+    max-width: 400px;
     font-size: 24px;
     position: absolute;
     z-index: 10;
     bottom: 5px;
     left: 41%;
-    transform: translateX(-50%);
-    max-height: 32px;overflow: hidden;
+    transform: translateX(-30%);
+    max-height: 32px;
+    overflow: hidden;
     min-height: 32px;
 }
 
@@ -764,7 +765,7 @@ button.swiper-pagination-bullet {
 
 .swiper-container {
     width: 100%;
-    padding-bottom: 60px;
+    padding-bottom: 85px;
 }
 
 .swiper-slide img {
@@ -775,6 +776,11 @@ button.swiper-pagination-bullet {
 
 .swiper-slide img {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .swiper-slide .slider-image .preview-icon {
